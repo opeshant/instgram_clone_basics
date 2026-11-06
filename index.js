@@ -23,6 +23,10 @@ const PORT = 3000;
 // res -> outgoing http request object 
 
 
+
+//sets up a http connection(firstly tcp connection) => raises the https reqyest
+// out server -> collect request -> process request -> sends the output in res body
+
 const server = http.createServer((req , res) =>{
        
     // send a hello world response
@@ -55,3 +59,8 @@ server.listen(PORT , ()=>{
 
     console.log('success' , PORT);
 })
+
+
+// if conneced to another machine then we need to know the ip adress of the server machine in case of aws service
+// therefore we need internet access because the client and server is not the machine 
+
