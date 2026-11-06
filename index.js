@@ -64,3 +64,7 @@ server.listen(PORT , ()=>{
 // if conneced to another machine then we need to know the ip adress of the server machine in case of aws service
 // therefore we need internet access because the client and server is not the machine 
 
+
+// express is a framework on node js -> easy to use -> big community support -> best in market
+// easy interface interact 
+ 
